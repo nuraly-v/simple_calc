@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Simple Calc</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-calc">
+            <div class="display-result">
+                <h1 id="display"></h1>
+                <h3 id="history"></h3>
+            </div>
+            <div class="keys">
+                <buttton onclick="displayIt(1)" class="key">1</buttton>
+                <buttton onclick="displayIt(2)" class="key">2</buttton>
+                <buttton onclick="displayIt(3)" class="key">3</buttton>
+                <buttton onclick="displayIt('+')" class="key special-ops">+</buttton>
+                <buttton onclick="displayIt(4)" class="key">4</buttton>
+                <buttton onclick="displayIt(5)" class="key">5</buttton>
+                <buttton onclick="displayIt(6)" class="key">6</buttton>
+                <buttton onclick="displayIt('-')" class="key special-ops">-</buttton>
+                <buttton onclick="displayIt(7)" class="key">7</buttton>
+                <buttton onclick="displayIt(8)" class="key">8</buttton>
+                <buttton onclick="displayIt(9)" class="key">9</buttton>
+                <buttton onclick="displayIt('*')" class="key special-ops">*</buttton>
+                <buttton onclick="displayIt(0)" class="key">0</buttton>
+                <buttton onclick="displayIt('.')" class="key">.</buttton>
+                <buttton onclick="displayIt('=')" class="key">=</buttton>
+                <buttton onclick="displayIt('/')" class="key special-ops">/</buttton>
+                <buttton onclick="displayIt('Clear')" class="key clear">Clear</buttton>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
