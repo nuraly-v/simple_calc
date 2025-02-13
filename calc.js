@@ -1,3 +1,4 @@
+// Display the given numbers and operations inside the display block
 function displayIt(what) {
     let writingGround = document.getElementById('display');
     let historyGround = document.getElementById('history');
